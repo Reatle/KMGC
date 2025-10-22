@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/donation_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- White Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:elevation="8dp"
+            android:padding="24dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="48dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💖 Support Our Mission"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your contribution helps us continue empowering communities. You can donate directly using the details below:"
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="4dp" />
+
+            <!-- Section Title -->
+            <TextView
+                android:text="💳 Bank Account Details"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Bank Details Box -->
+            <TextView
+                android:id="@+id/bankDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank: FNB\nAccount Name: Kopano Manyano Community Group\nAccount Number: 0589574329\nBranch Code: 250655\nReference: Your Full Name"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:background="@drawable/details_box"
+                android:padding="14dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Copy Button -->
+            <Button
+                android:id="@+id/copyAccountBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copy Account Number"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:elevation="4dp"
+                android:padding="14dp" />
+
+            <!-- Back Button -->
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to Dashboard"
+                android:backgroundTint="#FF6B6B"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:elevation="4dp"
+                android:padding="14dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Thank You -->
+            <TextView
+                android:id="@+id/thankYouText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank you for your support! Every contribution makes a difference ❤️"
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:gravity="center"
+                android:layout_marginTop="28dp"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

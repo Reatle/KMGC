@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576808537571",
+    "project_id": "kmgcapp",
+    "storage_bucket": "kmgcapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576808537571:android:a7550579fbf48c342924d6",
+        "android_client_info": {
+          "package_name": "com.example.kmgc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbttYzD-JSMAvNCNgWI5UXT5uYdloLrak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
